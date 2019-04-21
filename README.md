@@ -1,10 +1,10 @@
   Password generator for BIOS
 ================================
+
+Continued fork of bacher09's abandoned repo!
+
 [![travis status][build-status]][travis]
 [![coverage here][coverage-status]][coverage]
-[![browserstack status][browserstack-status]][browserstack-info]
-
-[![tested-browsers][sauce-matrix]][sauce-link]
 
 This project contains master password generators for various BIOS/UEFI firmware.
 For more info [read this][dogbert-post].
@@ -40,14 +40,10 @@ Latest released version available [here][bios-pw] and latest testing version (*s
 * [dogbert](https://github.com/dogbert) &mdash; researched most of generators present here
 * hpgl &mdash; for dell generator
 
-[build-status]: https://api.travis-ci.org/bacher09/pwgen-for-bios.svg?branch=master
-[travis]: https://travis-ci.org/bacher09/pwgen-for-bios
-[coverage-status]: https://coveralls.io/repos/github/bacher09/pwgen-for-bios/badge.svg?branch=master
-[coverage]: https://coveralls.io/github/bacher09/pwgen-for-bios?branch=master
-[browserstack-status]: https://www.browserstack.com/automate/badge.svg?badge_key=UFl5WjA4TFlkNlN6MG1XTUd3Tmt6U1NzMXFYSHJLa2NsM3F0RE1JNnF3WT0tLWFJVEpCbVRlMVBJQ2dnRitWYVdnOFE9PQ==--785e0f4cd308caa52ec30b8183c16a6a6fc38293
-[browserstack-info]: https://www.browserstack.com/automate/public-build/UFl5WjA4TFlkNlN6MG1XTUd3Tmt6U1NzMXFYSHJLa2NsM3F0RE1JNnF3WT0tLWFJVEpCbVRlMVBJQ2dnRitWYVdnOFE9PQ==--785e0f4cd308caa52ec30b8183c16a6a6fc38293
-[sauce-matrix]: https://saucelabs.com/browser-matrix/bacher09.svg
-[sauce-link]: https://saucelabs.com/u/bacher09
+[build-status]: https://api.travis-ci.org/JustinBack/BiosMasterPasswordGenerator.svg?branch=master
+[travis]: https://travis-ci.org/JustinBack/BiosMasterPasswordGenerator
+[coverage-status]: https://coveralls.io/repos/github/JustinBack/BiosMasterPasswordGenerator/badge.svg?branch=master
+[coverage]: https://coveralls.io/github/JustinBack/BiosMasterPasswordGenerator?branch=master
 [dogbert-post]: http://dogber1.blogspot.com/2009/05/table-of-reverse-engineered-bios.html
-[bios-pw]: https://bios-pw.org/
-[beta-bios-pw]: https://beta.bios-pw.org/
+[bios-pw]: https://beta.pixelcatproductions.net/
+[beta-bios-pw]: https://beta.pixelcatproductions.net/unstable
