@@ -15,3 +15,4 @@ test-dist/
 coverage-dist/
 venv/
 work/
+.coveralls.yml
