@@ -52,7 +52,7 @@
     "keygen",
     "password"
   ],
-  "author": "Slava Bacherikov",
+  "author": "Justin Back",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/JustinBack/BiosMasterPasswordGenerator/issues"
