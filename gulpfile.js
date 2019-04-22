@@ -16,13 +16,13 @@ gulp.task("coverage-build", function() {
         .pipe(gulp.dest("coverage-dist"));
 });
 
-gulp.task("pre-coverage", ["coverage-build"], function() {
+gulp.task("pre-coverage", gulp.series("coverage-build"), function() {
     return gulp.src(["coverage-dist/**/*.js"])
             .pipe(istanbul())
             .pipe(istanbul.hookRequire());
 });
 
-gulp.task('coverage', ['coverage-build', 'pre-coverage'], function() {
+gulp.task('coverage', gulp.series('coverage-build', 'pre-coverage'), function() {
     return gulp.src("coverage-dist/**/*.spec.js")
         .pipe(jasmine())
         .pipe(istanbul.writeReports({
@@ -57,7 +57,7 @@ gulp.task('test-build', function() {
         .pipe(gulp.dest("test-dist"));
 });
 
-gulp.task('test', ['test-build'], function() {
+gulp.task('test', gulp.series('test-build'), function() {
     return gulp.src("test-dist/**/*.spec.js")
         .pipe(jasmine());
 });
@@ -66,4 +66,4 @@ gulp.task('clean', function(cb) {
     del(['dist', 'test-dist', 'coverage-dist', 'coverage']).then(paths => cb());
 });
 
-gulp.task('default', ['test', 'lint', 'coverage'])
+gulp.task('default', gulp.series('test', 'lint', 'coverage'))

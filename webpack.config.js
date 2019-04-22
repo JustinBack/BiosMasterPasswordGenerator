@@ -31,7 +31,7 @@ function makeClosureCompiler() {
 }
 
 var plugins = [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(),
     new CopyWebpackPlugin([
         {
             from: 'assets/bootstrap.min.css',
