@@ -9,7 +9,7 @@ Continued fork of bacher09's abandoned repo!
 This project contains master password generators for various BIOS/UEFI firmware.
 For more info [read this][dogbert-post].
 
-Latest released version available [here][bios-pw] and latest testing version (*synchronized with master branch*) [here][beta-bios-pw].
+Latest released version available [here][bios-pw].
 
 ## Supported BIOS types:
 
