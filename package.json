@@ -1,8 +1,7 @@
 {
-  "name": "pwgen-for-bios",
+  "name": "biosmasterpasswordgenerator",
   "version": "2.0.0",
   "description": "Password generator for BIOS",
-  "main": "decrypt_bios.js",
   "dependencies": {
     "@types/jasmine": "^2.8.3",
     "@types/long": "^3.0.32",
@@ -41,13 +40,12 @@
     "test": "gulp test",
     "lint": "gulp lint",
     "cover": "gulp coverage",
-    "browser-test": "karma start",
     "webpack": "webpack",
     "dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bacher09/pwgen-for-bios.git"
+    "url": "git+https://github.com/JustinBack/BiosMasterPasswordGenerator.git"
   },
   "keywords": [
     "bios",
@@ -57,7 +55,7 @@
   "author": "Slava Bacherikov",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/bacher09/pwgen-for-bios/issues"
+    "url": "https://github.com/JustinBack/BiosMasterPasswordGenerator/issues"
   },
-  "homepage": "https://github.com/bacher09/pwgen-for-bios#readme"
+  "homepage": "https://github.com/JustinBack/BiosMasterPasswordGenerator#readme"
 }
