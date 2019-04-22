@@ -39,7 +39,7 @@ Latest released version available [here][bios-pw] and latest testing version (*s
 * [asyncritius](https://github.com/A-syncritus) &mdash; for major contribution to dell generator
 * [dogbert](https://github.com/dogbert) &mdash; researched most of generators present here
 * hpgl &mdash; for dell generator
-
+* [bacher09](https://github.com/bacher09) &mdash; for the original repo
 [build-status]: https://api.travis-ci.org/JustinBack/BiosMasterPasswordGenerator.svg?branch=master
 [travis]: https://travis-ci.org/JustinBack/BiosMasterPasswordGenerator
 [coverage-status]: https://coveralls.io/repos/github/JustinBack/BiosMasterPasswordGenerator/badge.svg?branch=master
